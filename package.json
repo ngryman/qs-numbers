@@ -1,0 +1,27 @@
+{
+  "name": "qs-numbers",
+  "version": "0.0.1",
+  "description": "A qs plugin to enable number parsing.",
+  "main": "index.js",
+  "scripts": {
+    "test": "node node_modules/lab/bin/lab"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ngryman/qs-numbers.git"
+  },
+  "keywords": [
+    "querystring",
+    "qs"
+  ],
+  "author": "Nicolas Gryman <ngryman@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ngryman/qs-numbers/issues"
+  },
+  "homepage": "https://github.com/ngryman/qs-numbers",
+  "devDependencies": {
+    "qs": "~2.2.4",
+    "lab": "~4.5.1"
+  }
+}
