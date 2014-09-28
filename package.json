@@ -1,7 +1,7 @@
 {
   "name": "qs-numbers",
   "version": "0.0.1",
-  "description": "A qs plugin to enable number parsing.",
+  "description": "A qs plugin that enables number parsing.",
   "main": "index.js",
   "scripts": {
     "test": "node node_modules/lab/bin/lab"
@@ -12,7 +12,8 @@
   },
   "keywords": [
     "querystring",
-    "qs"
+    "qs",
+	  "number"
   ],
   "author": "Nicolas Gryman <ngryman@gmail.com>",
   "license": "MIT",
