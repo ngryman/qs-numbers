@@ -1,5 +1,7 @@
 # qs-numbers
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/ngryman/qs-numbers.svg)](https://greenkeeper.io/)
+
 [![NPM Version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url]
 
 A [qs] plugin that enables `number` parsing.
