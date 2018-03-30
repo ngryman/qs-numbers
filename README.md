@@ -4,15 +4,27 @@
 
 A [qs] plugin that enables `number` parsing.
 
+---
+
+:warning: There is now a simpler method to achieve the same thing out-of-the-box:
+```js
+var qs = require('qs');
+var withNumbers = qs.parse('a=1', {
+  decoder: str => Number.isNumber(str) ? parseFloat(str) : str
+})
+```
+
+---
+
 ## Usage
 
 ```javascript
-var Qs = require('qs');
-require('qs-numbers')(Qs);
+var qs = require('qs');
+require('qs-numbers')(qs);
 
-var withNumbers = Qs.parse('a=1');     // { a: 1 }
-var withoutNumbers = Qs._parse('a=1'); // { a: '1' }
-var str = Qs.stringify(obj);           // 'a=1'
+var withNumbers = qs.parse('a=1');     // { a: 1 }
+var withoutNumbers = qs._parse('a=1'); // { a: '1' }
+var str = qs.stringify(obj);           // 'a=1'
 ```
 
 [npm-image]: http://img.shields.io/npm/v/qs-numbers.svg
